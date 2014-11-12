@@ -16,7 +16,7 @@ Comments   : No
 #define PREKIDAC2           8     //prekidac 2 pin C.4  
 #define SERVO_MOV_CHECK     9
 #define SERVO_MOVING        10 
-#define SENSOR_TROUGLOVI        11  
+#define SENSOR_TROUGLOVI    11  
 
 /*********************Registers**********************/
 #define POZICIJA_SERVO_R      1
@@ -30,6 +30,7 @@ Comments   : No
 #define sensor6 PINF.0
 #define sensor5 PINF.5
 #define sensor4 PINF.6
+#define sensorTrouglovi PINF.7
 #define prekidac1 PINC.3
 #define prekidac2 PINC.4
 

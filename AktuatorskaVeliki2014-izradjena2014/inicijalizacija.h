@@ -1,7 +1,7 @@
 /*****************************************************  
 File       : inicijalizacija.h
 Last change: 05/22/2014
-Comments   : No
+Comments   : No    mau ohlsdfsh;jvn
 *****************************************************/
 
 
