@@ -1,0 +1,7 @@
+/*****************************************************  
+File       : prekidaci.h
+Last change: 05/25/2014
+Comments   : No
+*****************************************************/
+
+void loptice_func(unsigned int parametarLoptice);    

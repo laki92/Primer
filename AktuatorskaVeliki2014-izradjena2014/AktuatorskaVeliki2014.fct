@@ -1,0 +1,6 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"AktuatorskaVeliki2014.c" LINE:64
+ModbusSlaveInit DSTACK_USAGE:5 DSTACK_LEVEL:5 FILE:"modbus_slave\modbus_slave.c" LINE:305
+ModbusSlaveMain DSTACK_USAGE:2 DSTACK_LEVEL:7 FILE:"modbus_slave\modbus_slave.c" LINE:338
+ModbusAsciify DSTACK_USAGE:8 DSTACK_LEVEL:15 FILE:"modbus_slave\modbus_slave.c" LINE:288
+ModbusByteToASCII DSTACK_USAGE:5 DSTACK_LEVEL:20 FILE:"modbus_slave\modbus_slave.c" LINE:243
+usart_rx_isr DSTACK_USAGE:26 DSTACK_LEVEL:46 FILE:"modbus_slave\modbus_port\modbus_atmega.c" LINE:68

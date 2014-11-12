@@ -1,0 +1,63 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+slave_address                                                     0500h        1
+coils_array                                                       0501h       12
+registers_array                                                   050Dh        8
+events_array                                                      0515h        6
+events_num                                                        051Bh        1
+events_head                                                       051Ch        1
+events_tail                                                       051Dh        1
+CoilsEventFunctions                                               051Eh       24
+RegistersEventFunctions                                           0536h        8
+asciiPart                                                         053Eh        4
+function                                                          0542h        1
+data                                                              0543h       80
+byte                                                              0593h       40
+LRC                                                               05BBh        1
+DirPinFunction                                                    05BCh        2
+ModbusMainFunction                                                05BEh        2
+rx_buffer                                                         05C0h       64
+rx_wr_index                                                       0600h        1
+rx_rd_index                                                       0601h        1
+rx_counter                                                        0602h        1
+tx_buffer                                                         0603h       64
+tx_wr_index                                                       0643h        1
+tx_rd_index                                                       0644h        1
+tx_counter                                                        0645h        1
+brzina_servo_H                                                    0646h        1
+brzina_servo_L                                                    0647h        1
+ugao_servo_H                                                      0648h        1
+ugao_servo_L                                                      0649h        1
+sum                                                               064Ah        1
+checksum                                                          064Bh        1
+greska                                                            064Ch        1
+IdServoGreska                                                     064Dh        1
+paket1                                                            064Eh        1
+paket2                                                            064Fh        1
+paket4                                                            0650h        1
+paket6                                                            0651h        1
+moving                                                            0652h        1
+paket7                                                            0653h        1
+rx_buffer0                                                        0654h       16
+rx_wr_index0                                                      0664h        1
+rx_rd_index0                                                      0665h        1
+rx_counter0                                                       0666h        1
+_seed                                                             0667h        4
+p                                                                 066Bh        2
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+modbus_state                                                      R4,R5        2
+i                                                                 R6,R7        2
+k                                                                 R8,R9        2
+crlf                                                              R10,R11      2
+broadcast                                                         R12,R13      2
+rx_buffer_overflow                                                R2.0      1bit
+upisao                                                            R2.1      1bit
+rx_buffer_overflow0                                               R2.2      1bit

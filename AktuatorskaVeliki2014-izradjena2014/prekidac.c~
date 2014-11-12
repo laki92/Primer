@@ -1,0 +1,25 @@
+/*****************************************************  
+File       : prekidaci.c
+Last change: 05/25/2014
+Comments   : Pali se maxon na kratko
+*****************************************************/
+#include <mega128.h>
+#include "modbus_slave.h"
+#include <delay.h>  
+#include <inicijalizacija.h>
+#include <prekidac.h>
+
+void loptice_func(unsigned int parametarLoptice)    
+{
+    unsigned char maxonOnOff;   
+    ModbusGetCoil(LOPTICE_C, &maxonOnOff);
+    
+    if(maxonOnOff)
+    {
+        lopticeMaxon = 0;
+        delay_ms(300);
+        lopticeMaxon = 1;
+    }
+    else
+        lopticeMaxon = 1;
+}
